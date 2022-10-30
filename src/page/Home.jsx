@@ -12,6 +12,7 @@ import News2 from '../img/home/news-2.png';
 import News3 from '../img/home/news-3.png';
 import News4 from '../img/home/news-4.png';
 import ImageCarousel from '../com/ImageCarousel';
+import VideoPoster from '../img/home/carousel_0.png';
 
 class Home extends Component {
     render() {
@@ -52,7 +53,7 @@ class Home extends Component {
                         </div>
                     </div>
                     <div className="video">
-                        <video src={Video} controls/>
+                        <video src={Video} controls poster={VideoPoster}/>
                     </div>
                 </div>
                 <div className="culture">

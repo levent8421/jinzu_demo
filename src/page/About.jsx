@@ -14,6 +14,7 @@ import Stru4 from '../img/about/stru4.png';
 import Stru1Detail from '../img/about/stru1-detail.png';
 import Culture1 from '../img/about/culture-1.png';
 import Culture2 from '../img/about/culture-2.png';
+import VideoPoster from '../img/home/carousel_0.png';
 
 class About extends Component {
     state = {
@@ -51,7 +52,7 @@ class About extends Component {
                 </div>
                 <div className="video">
                     <img src={VideoBg} alt="" className="bg"/>
-                    <video src={Video} controls/>
+                    <video src={Video} controls poster={VideoPoster}/>
                 </div>
                 <div className="course">
                     <h3 className="title">THE DEVELOPMENT COURSE</h3>

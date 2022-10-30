@@ -12,6 +12,18 @@ class Carousel extends Component {
     state = {
         index: 0,
     };
+
+    componentDidMount() {
+        const _this = this;
+        this.timmer = setInterval(() => {
+            _this.onRightClick();
+        }, 6 * 1000);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.timmer);
+    }
+
     onLeftClick = () => {
         let {index} = this.state;
         index--;

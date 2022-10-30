@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'puhui';
+    src: url("../public/font/AlibabaPuHuiTi-2-55-Regular.ttf");
+}
+
 body {
     margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: puhui, 宋体, serif;
+}
+
+* {
+    font-family: puhui, 宋体, serif;
 }

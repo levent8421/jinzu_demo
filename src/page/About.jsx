@@ -59,8 +59,8 @@ class About extends Component {
                     <img src={CourseImage} alt=""/>
                 </div>
                 <div className="stru" style={{backgroundImage: `url(${StruBg})`}}>
-                    <h3 className="title">THE DEVELOPMENT COURSE</h3>
-                    <h3 className="subtitle">发展历程</h3>
+                    <h3 className="title">ORGANIZATIONAL STRUCTURE</h3>
+                    <h3 className="subtitle">组织架构</h3>
                     <img src={Stru} alt=""/>
                 </div>
                 <div className="stru2">

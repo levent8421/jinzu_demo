@@ -5,6 +5,9 @@ import Header from './com/Header';
 import Footer from './com/Footer';
 import Home from './page/Home';
 import About from './page/About';
+import News from './page/News';
+import Area from './page/Area';
+import Concat from './page/Concat';
 
 class App extends Component {
     render() {
@@ -15,6 +18,9 @@ class App extends Component {
                     <Routes>
                         <Route path="/" element={<Home/>}/>
                         <Route path="/about" element={<About/>}/>
+                        <Route path="/news" element={<News/>}/>
+                        <Route path="/area" element={<Area/>}/>
+                        <Route path="/join" element={<Concat/>}/>
                     </Routes>
                 </Router>
                 <Footer/>

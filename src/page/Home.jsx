@@ -11,8 +11,8 @@ import News1 from '../img/home/news-1.png';
 import News2 from '../img/home/news-2.png';
 import News3 from '../img/home/news-3.png';
 import News4 from '../img/home/news-4.png';
-import ImageCarousel from '../com/ImageCarousel';
-import VideoPoster from '../img/home/carousel_0.png';
+import VideoPoster from '../img/home/carousel_0.jpg';
+import SimpleCardCarousel from "../com/SimpleCardCarousel";
 
 class Home extends Component {
     render() {
@@ -156,9 +156,7 @@ class Home extends Component {
                 <div className="area">
                     <h3 className="title">BUSINESS AREA</h3>
                     <h3 className="subtitle">业务领域</h3>
-                    <div className="image-wrapper">
-                        <ImageCarousel/>
-                    </div>
+                    <SimpleCardCarousel items={[1, 2, 3, 4, 5]} active={0}/>
                 </div>
             </div>
         );

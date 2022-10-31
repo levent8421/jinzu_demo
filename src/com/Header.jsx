@@ -11,8 +11,29 @@ class Header extends Component {
             {text: '新闻咨询', active: false, path: '/news'},
             {text: '业务领域', active: false, path: '/area'},
             {text: '加入我们', active: false, path: '/join'},
-        ]
+        ],
+        bgState: 'color'
     };
+
+    componentDidMount() {
+        this.originOnScroll = document.onscroll;
+        const _this = this;
+        document.onscroll = e => {
+            _this.setBgState(e.target.documentElement.scrollTop > 100 ? 'color' : 'transparent');
+        };
+    }
+
+    setBgState(state) {
+        const {bgState} = this.state;
+        if (bgState === state) {
+            return;
+        }
+        this.setState({bgState: state});
+    }
+
+    componentWillUnmount() {
+        document.onscroll = this.originOnScroll;
+    }
 
     to(n) {
         const {menus} = this.state;
@@ -28,9 +49,9 @@ class Header extends Component {
     }
 
     render() {
-        const {menus} = this.state;
+        const {menus, bgState} = this.state;
         return (
-            <div className="app-header">
+            <div className={`app-header app-header-${bgState}`}>
                 <div className="inner">
                     <div className="logo">
                         <img src={Logo} alt=""/>

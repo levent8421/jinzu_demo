@@ -14,15 +14,45 @@ import Stru4 from '../img/about/stru4.png';
 import Stru1Detail from '../img/about/stru1-detail.png';
 import Culture1 from '../img/about/culture-1.png';
 import Culture2 from '../img/about/culture-2.png';
-import VideoPoster from '../img/home/carousel_0.png';
+import VideoPoster from '../img/home/carousel_0.jpg';
 
 class About extends Component {
     state = {
         modalVisible: false,
+        courseState: 'inactive'
+    };
+    onCourseBind = e => {
+        if (!e) {
+            return;
+        }
+        this.courseScroll = e.offsetTop - 100;
     };
 
+    componentDidMount() {
+        const _this = this;
+        this.originOnScroll = document.onscroll;
+        document.onscroll = e => {
+            if (this.originOnScroll) {
+                this.originOnScroll(e);
+            }
+            const scroll = e.target.documentElement.scrollTop || document.body.scrollTop;
+            console.log(scroll, _this.courseScroll);
+            if (scroll > _this.courseScroll) {
+                const {courseState} = _this.state;
+                if (courseState === 'active') {
+                    return;
+                }
+                _this.setState({courseState: 'active'});
+            }
+        };
+    }
+
+    componentWillUnmount() {
+        document.onscroll = this.originOnScroll;
+    }
+
     render() {
-        const {modalVisible} = this.state;
+        const {modalVisible, courseState} = this.state;
         return (
             <div className="about">
                 <div className="header-mask"/>
@@ -54,7 +84,7 @@ class About extends Component {
                     <img src={VideoBg} alt="" className="bg"/>
                     <video src={Video} controls poster={VideoPoster}/>
                 </div>
-                <div className="course">
+                <div className={`course course-${courseState}`} ref={this.onCourseBind}>
                     <h3 className="title">THE DEVELOPMENT COURSE</h3>
                     <h3 className="subtitle">发展历程</h3>
                     <img src={CourseImage} alt=""/>

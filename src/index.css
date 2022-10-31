@@ -1,6 +1,16 @@
 @font-face {
-    font-family: 'puhui';
+    font-family: 'puhui-regular';
     src: url("../public/font/AlibabaPuHuiTi-2-55-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'puhui-medium';
+    src: url("../public/font/AlibabaPuHuiTi-2-65-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'puhui-sb';
+    src: url("../public/font/AlibabaPuHuiTi-2-75-SemiBold.ttf");
 }
 
 body {
@@ -8,9 +18,17 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: puhui, 宋体, serif;
+    font-family: puhui-sb, 宋体, serif;
+}
+
+h3.title {
+    font-family: puhui-sb, 宋体, serif;
+}
+
+h3.subtitle {
+    font-family: puhui-regular, 宋体, serif;
 }
 
 * {
-    font-family: puhui, 宋体, serif;
+    font-family: puhui-sb, 宋体, serif;
 }

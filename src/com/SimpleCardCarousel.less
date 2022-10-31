@@ -1,0 +1,122 @@
+.simple-card-carousel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .inner {
+    position: relative;
+  }
+
+  .arrow {
+    height: 500px;
+    flex: 1;
+    background-color: transparent;
+  }
+
+  .item {
+    box-shadow: #3b3e42 0 0 10px;
+    transition: all .2s;
+    cursor: pointer;
+    filter: blur(3px);
+
+    .item-inner {
+      position: relative;
+    }
+
+    .bg {
+
+    }
+
+    .mask {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(79, 70, 68, .95);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: all .2s;
+      opacity: 0;
+
+      .icon {
+        width: 100px;
+        margin: 24px;
+      }
+
+      p {
+        margin: 0 0 24px 0;
+        padding: 0;
+        color: white;
+      }
+    }
+  }
+
+  .item-level-0 {
+    left: 0;
+    top: 0;
+    filter: none;
+
+    .mask {
+      opacity: 1 !important;
+    }
+  }
+
+  .item-level-0:hover {
+    .mask {
+      background-color: rgba(79, 70, 68, .8);;
+    }
+  }
+
+  .item-level-1 {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+
+  .item-level-1.item-left {
+    transform: scale(0.8);
+    left: -200px;
+  }
+
+  .item-level-1.item-right {
+    transform: scale(0.8);
+    left: 200px;
+  }
+
+  .item-level-2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+  }
+
+  .item-level-2.item-left {
+    transform: scale(0.6);
+    left: -300px;
+  }
+
+  .item-level-2.item-right {
+    transform: scale(0.6);
+    left: 300px;
+  }
+
+  .item-level-3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -3;
+  }
+
+  .item-level-3.item-left {
+    transform: scale(0.5);
+    left: -350px;
+  }
+
+  .item-level-3.item-right {
+    transform: scale(0.5);
+    left: 350px;
+  }
+}

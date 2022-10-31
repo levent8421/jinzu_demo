@@ -19,13 +19,13 @@ class SimpleCardCarousel extends Component {
     offset = 0;
     state = {
         items: [
-            {id: 0, img: Image1, text: 'Test1', icon: Icon1, level: 3, mode: 'left'},
-            {id: 1, img: Image2, text: 'Test2', icon: Icon2, level: 2, mode: 'left'},
-            {id: 2, img: Image3, text: 'Test3', icon: Icon3, level: 1, mode: 'left'},
-            {id: 3, img: Image4, text: 'Test4', icon: Icon4, level: 0, mode: 'none'},
-            {id: 4, img: Image5, text: 'Test5', icon: Icon5, level: 1, mode: 'right'},
-            {id: 5, img: Image6, text: 'Test6', icon: Icon6, level: 2, mode: 'right'},
-            {id: 6, img: Image7, text: 'Test7', icon: Icon7, level: 3, mode: 'right'},
+            {id: 0, img: Image2, text: '装备制造领域', icon: Icon2, level: 3, mode: 'left'},
+            {id: 1, img: Image3, text: '能源领域', icon: Icon3, level: 2, mode: 'left'},
+            {id: 2, img: Image4, text: '教育文化领域', icon: Icon4, level: 1, mode: 'left'},
+            {id: 3, img: Image1, text: '金融领域', icon: Icon1, level: 0, mode: 'none'},
+            {id: 4, img: Image5, text: '医疗健康领域', icon: Icon5, level: 1, mode: 'right'},
+            {id: 5, img: Image6, text: '城镇发展领域', icon: Icon6, level: 2, mode: 'right'},
+            {id: 6, img: Image7, text: '三农领域', icon: Icon7, level: 3, mode: 'right'},
         ],
     };
 

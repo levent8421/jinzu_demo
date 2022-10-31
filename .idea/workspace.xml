@@ -1,36 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9846e28-37ea-454e-9dda-1387bd884e55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/font/AlibabaPuHuiTi-2-65-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/font/AlibabaPuHuiTi-2-75-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/SimpleCardCarousel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/SimpleCardCarousel.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/home/carousel_0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/home/carousel_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/home/资源 11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/home/资源 12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/home/资源 13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/home/资源 14.png" afterDir="false" />
+    <list default="true" id="a9846e28-37ea-454e-9dda-1387bd884e55" name="Default Changelist" comment="Release">
+      <change afterPath="$PROJECT_DIR$/src/img/home/area-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/area-icon-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/area-icon-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/area-icon-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/area-icon-7.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Carousel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Carousel.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Carousel.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Header.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Header.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/home/area-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/home/area-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/home/area-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/home/area-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/home/area-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/home/carousel_0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/home/carousel_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/home/carousel_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/home/carousel_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/home/carousel_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/About.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/About.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Area.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Area.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/Home.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/Home.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimpleCardCarousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimpleCardCarousel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/SimpleCardCarousel.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/SimpleCardCarousel.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/资源 11.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/home/area-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/资源 12.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/home/area-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/资源 13.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/home/area-6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/资源 14.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/home/area-7.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +156,7 @@
       <workItem from="1667047059474" duration="10813000" />
       <workItem from="1667095436246" duration="14670000" />
       <workItem from="1667138527894" duration="2312000" />
-      <workItem from="1667196244218" duration="18964000" />
+      <workItem from="1667196244218" duration="20728000" />
     </task>
     <task id="LOCAL-00001" summary="Complete">
       <created>1667115588909</created>
@@ -189,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667139620879</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Release">
+      <created>1667219990815</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667219990815</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -235,7 +225,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Complete" />
     <MESSAGE value="Fix image carousel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix image carousel" />
+    <MESSAGE value="Release" />
+    <option name="LAST_COMMIT_MESSAGE" value="Release" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config-overrides.js">

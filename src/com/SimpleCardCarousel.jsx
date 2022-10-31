@@ -1,19 +1,31 @@
 import React, {Component} from 'react';
 import './SimpleCardCarousel.less';
 import Image1 from '../img/home/area-1.png';
+import Image2 from '../img/home/area-2.png';
+import Image3 from '../img/home/area-3.png';
+import Image4 from '../img/home/area-4.png';
+import Image5 from '../img/home/area-5.png';
+import Image6 from '../img/home/area-6.png';
+import Image7 from '../img/home/area-7.png';
 import Icon1 from '../img/home/area-icon-1.png';
+import Icon2 from '../img/home/area-icon-2.png';
+import Icon3 from '../img/home/area-icon-3.png';
+import Icon4 from '../img/home/area-icon-4.png';
+import Icon5 from '../img/home/area-icon-5.png';
+import Icon6 from '../img/home/area-icon-6.png';
+import Icon7 from '../img/home/area-icon-7.png';
 
 class SimpleCardCarousel extends Component {
     offset = 0;
     state = {
         items: [
             {id: 0, img: Image1, text: 'Test1', icon: Icon1, level: 3, mode: 'left'},
-            {id: 1, img: Image1, text: 'Test2', icon: Icon1, level: 2, mode: 'left'},
-            {id: 2, img: Image1, text: 'Test3', icon: Icon1, level: 1, mode: 'left'},
-            {id: 3, img: Image1, text: 'Test4', icon: Icon1, level: 0, mode: 'none'},
-            {id: 4, img: Image1, text: 'Test5', icon: Icon1, level: 1, mode: 'right'},
-            {id: 5, img: Image1, text: 'Test6', icon: Icon1, level: 2, mode: 'right'},
-            {id: 6, img: Image1, text: 'Test7', icon: Icon1, level: 3, mode: 'right'},
+            {id: 1, img: Image2, text: 'Test2', icon: Icon2, level: 2, mode: 'left'},
+            {id: 2, img: Image3, text: 'Test3', icon: Icon3, level: 1, mode: 'left'},
+            {id: 3, img: Image4, text: 'Test4', icon: Icon4, level: 0, mode: 'none'},
+            {id: 4, img: Image5, text: 'Test5', icon: Icon5, level: 1, mode: 'right'},
+            {id: 5, img: Image6, text: 'Test6', icon: Icon6, level: 2, mode: 'right'},
+            {id: 6, img: Image7, text: 'Test7', icon: Icon7, level: 3, mode: 'right'},
         ],
     };
 

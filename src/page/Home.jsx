@@ -13,6 +13,7 @@ import News3 from '../img/home/news-3.png';
 import News4 from '../img/home/news-4.png';
 import VideoPoster from '../img/home/carousel_0.jpg';
 import SimpleCardCarousel from "../com/SimpleCardCarousel";
+import IconTextEnd from '../img/home/icon-text-end.png';
 
 class Home extends Component {
     render() {
@@ -95,6 +96,7 @@ class Home extends Component {
                                     <p className="text">
                                         案例：张爷爷为自己投保了一份3年期分红保险，第二年时张爷爷就退保了，经询问，张爷爷经朋友介绍投资了一项理财项目，投资时称每月可获得10%的收益分红收益太低······
                                         <a href="/" className="link">MORE</a>
+                                        <img src={IconTextEnd} alt="" className="icon-text-end"/>
                                     </p>
                                     <p className="date date-left">2022-10-10</p>
                                 </div>
@@ -113,6 +115,7 @@ class Home extends Component {
                                     <p className="text">
                                         为了进一步提高公司品牌服务形象，提升员工自身综合素质，展现员工良好的精神风貌，7月5日，公司组织全体员工开展了商务礼仪培训活动。本次培训活动通过职场素养自查、职······
                                         <a href="/" className="link">MORE</a>
+                                        <img src={IconTextEnd} alt="" className="icon-text-end"/>
                                     </p>
                                     <p className="date date-right">2022-10-10</p>
                                 </div>
@@ -127,6 +130,7 @@ class Home extends Component {
                                     <p className="text">
                                         江南金融租赁股份有限公司首笔人才公寓——孟享家人才公寓融资租赁项目成功落地。该项目为人才公寓运营方提供融资，用于人才公寓项目的装修改造和配套设施的购置······
                                         <a href="/" className="link">MORE</a>
+                                        <img src={IconTextEnd} alt="" className="icon-text-end"/>
                                     </p>
                                     <p className="date date-left">2022-10-10</p>
                                 </div>
@@ -145,6 +149,7 @@ class Home extends Component {
                                     <p className="text">
                                         守望相助，共克疫情。面对新型冠状病毒感染的肺炎疫情，江南金租积极响应，迅速行动，充分发挥基层党组织战斗堡垒作用和党员先锋模范作用，积极支持防疫一线做好疫情防控工······
                                         <a href="/" className="link">MORE</a>
+                                        <img src={IconTextEnd} alt="" className="icon-text-end"/>
                                     </p>
                                     <p className="date date-right">2022-10-10</p>
                                 </div>

@@ -5,7 +5,7 @@
 
   .image-window {
     width: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
     position: relative;
 
     img.item {
@@ -13,19 +13,21 @@
       left: 0;
       position: absolute;
       width: 100%;
-      opacity: 0;
-      transition: all 2s;
+      z-index: -1;
+      transition: all 4s linear;
       transform: scale(1);
+      opacity: 0;
     }
 
     img.item.active {
       opacity: 1;
-      transform: scale(1.2);
+      z-index: 1;
+      transform: scale(1.33);
     }
 
     img.bg {
       width: 100%;
-      opacity: 0;
+      opacity: 0.1;
     }
   }
 
@@ -38,11 +40,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
 
     .arrow {
       width: 100px;
       height: 100px;
       margin: 0 50px;
+      transition: all .3s;
+    }
+
+    .arrow:hover {
+      transform: scale(1.2);
     }
   }
 }

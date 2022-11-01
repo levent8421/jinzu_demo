@@ -14,26 +14,22 @@ class Carousel extends Component {
         const _this = this;
         setTimeout(() => {
             _this.setState({index: 0});
-        }, 500);
+        }, 100);
     }
 
     onLeftClick = () => {
         let {index} = this.state;
         index--;
         if (index < 0) {
-            index = 2;
+            index = 1;
         }
-        this.setState({
-            index: index
-        });
+        this.setState({index: index});
     };
     onRightClick = () => {
         let {index} = this.state;
         index++;
         index %= 2;
-        this.setState({
-            index: index
-        });
+        this.setState({index: index});
     };
 
     render() {
@@ -41,9 +37,9 @@ class Carousel extends Component {
         return (
             <div className="carousel">
                 <div className="image-window">
-                    <img src={Carousel1Img} alt="" className="bg"/>
-                    <img src={Carousel0Img} alt="" className={index === 0 ? 'item active' : 'item'}/>
+                    <img src={Carousel0Img} alt="" className="bg"/>
                     <img src={Carousel1Img} alt="" className={index === 1 ? 'item active' : 'item'}/>
+                    <img src={Carousel0Img} alt="" className={index === 0 ? 'item active' : 'item'}/>
                 </div>
                 <div className="mask">
                     <div className="arrow" onClick={this.onLeftClick}>

@@ -13,6 +13,11 @@
     src: url("../public/font/AlibabaPuHuiTi-2-75-SemiBold.ttf");
 }
 
+@font-face {
+    font-family: 'puhui-thin';
+    src: url("../public/font/AlibabaPuHuiTi-2-45-Light.ttf");
+}
+
 body {
     margin: 0;
 }
@@ -30,5 +35,5 @@ h3.subtitle {
 }
 
 * {
-    font-family: puhui-sb, 宋体, serif;
+    font-family: puhui-regular, 宋体, serif;
 }

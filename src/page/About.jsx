@@ -14,6 +14,7 @@ import Stru4 from '../img/about/stru4.png';
 import Stru1Detail from '../img/about/stru1-detail.png';
 import Culture1 from '../img/about/culture-1.png';
 import Culture2 from '../img/about/culture-2.png';
+import Plane from '../img/about/plane.png';
 import VideoPoster from '../img/home/carousel_0.jpg';
 
 class About extends Component {
@@ -87,7 +88,8 @@ class About extends Component {
                 <div className={`course course-${courseState}`} ref={this.onCourseBind}>
                     <h3 className="title">THE DEVELOPMENT COURSE</h3>
                     <h3 className="subtitle">发展历程</h3>
-                    <img src={CourseImage} alt=""/>
+                    <img src={CourseImage} alt="" className="bg"/>
+                    <img src={Plane} alt="" className="plane"/>
                 </div>
                 <div className="stru" style={{backgroundImage: `url(${StruBg})`}}>
                     <h3 className="title">ORGANIZATIONAL STRUCTURE</h3>

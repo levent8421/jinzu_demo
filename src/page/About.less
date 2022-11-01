@@ -92,6 +92,8 @@
   }
 
   .course {
+    position: relative;
+
     .title {
       margin: 100px 0 0 0;
       padding: 0;
@@ -110,20 +112,30 @@
       padding: 0;
     }
 
-    img {
+    img.bg {
       width: 90%;
       margin: 50px auto 200px auto;
       display: block;
-      transform: translateX(-1920px);
       opacity: 0;
       transition: all 2s;
+    }
+
+    img.plane {
+      position: absolute;
+      left: 0;
+      top: 100px;
+      transition: all .5s;
+      transform: translateX(-600px);
     }
   }
 
   .course-active {
-    img {
+    img.bg {
+      opacity: 1 !important;
+    }
+
+    img.plane {
       transform: translateX(0);
-      opacity: 1;
     }
   }
 
